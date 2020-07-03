@@ -1,0 +1,40 @@
+
+.product{
+    position: relative;
+}
+.price{
+    position: absolute;
+    background-color: tomato;
+    top: 0;
+    right: 30px;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.lightbox-container
+{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    transform: scale(1,1);
+
+   
+}
+
+#btnUP{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 55555;
+}
+.imgContainer{
+    background-color: white;
+    /* border-radius: 20px; */
+    /* margin: 5px 5px; */
+    padding-top: 20px;
+    box-shadow: 5px 5px;
+}

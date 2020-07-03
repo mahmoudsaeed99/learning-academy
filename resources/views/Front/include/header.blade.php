@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="{{asset('assets')}}/css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="{{asset('assets')}}/css/style.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/all.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/index_style.css">
 </head>
 
 <body>

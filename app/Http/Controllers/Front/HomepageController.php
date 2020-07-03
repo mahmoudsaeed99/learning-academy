@@ -9,11 +9,13 @@ use App\Trainer;
 use App\Student;
 use App\Test;
 use App\Category;
+use App\SiteContent;
 
 class HomepageController extends Controller
 {
     //
     public function index(){
+        $data['banner'] = SiteContent::select('content')->where('name','banner')->first();
         $data['courses'] = Course::select('id','name','small_desc' , 'cat_id' , 'trainer_id' , 'img' , 'price')
         ->orderBy('id' , 'desc')
         ->take(3)

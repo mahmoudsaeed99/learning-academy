@@ -14,4 +14,10 @@ class ContactController extends Controller
         $data['setting'] = Setting::first();
         return view('Front.contact.index')->with($data);
     }
+    public function test(){
+        return view('Front.product');
+    }
+    public function test2(){
+        return view('Front.user');
+    }
 }
